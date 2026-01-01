@@ -40,3 +40,20 @@ console.log(typeof(myfun))
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+//***************Memory*************************/
+//Stack(Primitve),Heap(Non-Primitive)
+let myname="meemansha"
+let anothername="sumit"
+anothername="kosta"
+console.log(myname)
+console.log(anothername)
+
+let user1={
+    email:"user@google.com",
+    upi:"y8634"
+}
+let user2=user1
+user2.email="meemansha@gmail.com"
+console.log(user1.email)
+console.log(user2.email )
